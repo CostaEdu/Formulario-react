@@ -26,8 +26,7 @@ function Formulario() {
     }
 
     return (
-        <section className='formulario'>
-            <img className='background' src='img/background.jpg' alt='background'/>
+        <section className='formulario'> 
             <form onSubmit={submitSenha}>
                 <img className='logo' src='/img/logo-black.png' alt='logo'/>
                 <ValueForm 
