@@ -82,9 +82,10 @@ function Formulario() {
   }
   return (
     <div className="formulario">
-      <header className="formulario-header">
+      <header className="formulario-items">
         <form onSubmit={(e) => { handleSubmit(e) }}>
           <img className='logo' src='/img/logo-black.png' alt='logo'/>
+          
           <label >Nome</label><br />
           <input 
           type="text" 
