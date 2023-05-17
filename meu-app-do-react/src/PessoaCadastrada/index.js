@@ -1,11 +1,6 @@
-import './PessoaCadastrada.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
-function PessoaCadastrada(formulario){
-    return(
-        <div className='pessoaCadastrada'>
-            
-        </div>
-    )
-}
-
-export default PessoaCadastrada
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App/>);
