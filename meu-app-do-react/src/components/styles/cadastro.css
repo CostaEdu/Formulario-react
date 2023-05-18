@@ -19,10 +19,14 @@ body {
   font-family: "Roboto", sans-serif;
   background-image: url(../img/fundo/background.jpg);
   background-size: cover;
+}
+
+#root{
   height: 100vh;
   display: flex;
   justify-items: center;
   align-items: center;
+  width: 100%;
 }
 
 .logo {

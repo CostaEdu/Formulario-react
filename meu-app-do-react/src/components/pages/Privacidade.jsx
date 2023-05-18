@@ -11,7 +11,6 @@ export default function Privacidade() {
             src={logo}
             className='logo navbar-brand'
             onclick='redirectHome()'
-            style='cursor: pointer'
             alt='Voltar para a página inicial'
           />
           <button
@@ -457,31 +456,4 @@ export default function Privacidade() {
       </footer>
     </div>
   );
-}
-{
-  /* <script>
-      function redirectHome() {
-        window.open("../index.html", "_blank");
-      }
-      function redirectLogin() {
-        window.open("./login.html", "_blank");
-      }
-
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight) {
-            content.style.maxHeight = null;
-            content.classList.remove("show");
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-            content.classList.add("show");
-          }
-        });
-      }
-    </script> */
 }

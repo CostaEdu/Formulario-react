@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../components/img/logo/logo.png"
+import logo from "../../components/img/logo/logo-black.png"
 
 export default function Login() {
   return (
@@ -8,7 +8,6 @@ export default function Login() {
         <div className='col-12 col-md-8 col-lg-6 col-xl-5'>
           <div
             className='card text-white login-bg'
-            style='border-radius: 2rem; background-color: #f8f9fa'
           >
             <div className='card-body p-5 text-center'>
               <div className='md-4'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../components/img/logo/logo.png"
+import logo from "../../components/img/logo/logo-black.png"
 
 export default function Cadastro() {
   return (
@@ -12,7 +12,7 @@ export default function Cadastro() {
       alt="Voltar para a página inicial"
     />
     <form id="formSenha">
-      <section className="nomeCompleto">
+      <section className="formSection nomeCompleto">
         <input
           type="text"
           id="nome"
@@ -28,7 +28,7 @@ export default function Cadastro() {
           required
         />
       </section>
-      <section className="email">
+      <section className="formSection email">
         <input
           type="email"
           id="email"
@@ -39,7 +39,7 @@ export default function Cadastro() {
         />
       </section>
 
-      <section className="cel">
+      <section className="formSection cel">
         <input
           type="text"
           id="cel"
@@ -52,7 +52,7 @@ export default function Cadastro() {
         />
       </section>
 
-      <section className="dataCPF">
+      <section className="formSection dataCPF">
         <input
           type="text"
           id="data"
@@ -78,7 +78,7 @@ export default function Cadastro() {
           required
         />
       </section>
-      <section className="senha">
+      <section className="formSection senha">
         <input
           type="password"
           id="password"
@@ -96,7 +96,7 @@ export default function Cadastro() {
           required
         />
       </section>
-      <section className="endereco">
+      <section className=" formSection endereco">
         <input
           type="text"
           onblur="pesquisacep(this.value);"
@@ -123,7 +123,7 @@ export default function Cadastro() {
           required
         />
       </section>
-      <section className="enderecoCont">
+      <section className="formSection enderecoCont">
         <input
           type="text"
           id="bairro"

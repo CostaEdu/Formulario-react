@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../components/img/logo/logo.png"
+import logo from "../../components/img/logo/logo-black.png"
 
 export default function Forgot() {
   return (
     <div className='container py-5 h-100'>
       <div className='row d-flex justify-content-center align-items-center h-100'>
         <div className='col-12 col-md-8 col-lg-6 col-xl-5'>
-          <div className='card bg-light text-white' style='border-radius: 2rem'>
+          <div className='card bg-light text-white'>
             <div className='card-body p-5 text-center'>
               <div className='md-4'>
                 <img
@@ -63,16 +63,4 @@ export default function Forgot() {
       </div>
     </div>
   );
-}
-{
-  /* <script>
-      const form = document.getElementById("form-email");
-      const emailInput = document.getElementById("email");
-
-      form.addEventListener("submit", function (event) {
-        event.preventDefault();
-        const email = emailInput.value;
-        alert(`Enviaremos um e-mail de confirmação para o endereço de e-mail ${email}.`);
-      });
-    </script> */
 }

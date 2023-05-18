@@ -31,7 +31,6 @@ export default function Resultados() {
             src={logo}
             className="logo navbar-brand"
             onclick="redirectHome()"
-            style="cursor: pointer"
             alt="Voltar para a página inicial"
             />
         <button

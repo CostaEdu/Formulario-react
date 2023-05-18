@@ -4,7 +4,7 @@ import logo from "../../components/img/logo/logo.png"
 export default function Proprietarios() {
   return (
     <div>
-      {/* <!--Navbar--> */}
+     
       <header>
         <nav className='navbar navbar-expand-lg'>
           <div className='container-fluid'>
@@ -55,7 +55,7 @@ export default function Proprietarios() {
         </nav>
         <h1>Cadastre sua Loja!</h1>
       </header>
-      {/* <!--Main--> */}
+      
       <main>
         <div className='container-form'>
           <form>
@@ -153,7 +153,7 @@ export default function Proprietarios() {
               />
               <span className='msg-error msg-email'></span>
             </div>
-            <div className='half-box spacing'>
+            <div className='full-box spacing'>
               <label htmlFor='name'>Nome</label>
               <input
                 type='text'
@@ -163,7 +163,7 @@ export default function Proprietarios() {
               />
               <span className='msg-error msg-name'></span>
             </div>
-            <div className='half-box'>
+            <div className='full-box'>
               <label htmlFor='lastname'>Sobrenome</label>
               <input
                 type='text'
@@ -174,7 +174,7 @@ export default function Proprietarios() {
               <span className='msg-error msg-lastname'></span>
             </div>
             <div className='full-box'>
-              <label htmlFor='phone'>Telefone Celular</label>
+              <label htmlFor='phone'>Telefone</label>
               <input
                 type='tel'
                 name='phone'
@@ -195,6 +195,7 @@ export default function Proprietarios() {
           </form>
         </div>
       </main>
+      <br />
     </div>
   );
 }
