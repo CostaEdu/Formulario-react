@@ -13,7 +13,7 @@ export default function Login() {
               <div className='md-4'>
                 <img
                   src={logo}
-                  onclick='redirectHome()'
+                  onClick='redirectHome()'
                   role='button'
                   className='img-fluid w-25 p-2 mb-2'
                   alt='Voltar para a página inicial'

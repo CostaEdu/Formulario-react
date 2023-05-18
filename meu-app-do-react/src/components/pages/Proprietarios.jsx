@@ -1,3 +1,4 @@
+/* eslint jsx-a11y/anchor-is-valid: 0 */
 import React from "react";
 import logo from "../../components/img/logo/logo.png"
 

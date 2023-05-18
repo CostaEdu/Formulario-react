@@ -1,3 +1,4 @@
+/* eslint jsx-a11y/anchor-is-valid: 0 */
 import React from "react";
 import logo from "../../components/img/logo/logo.png";
 import mainPhoto from "../../components/img/index/main.jpg";
@@ -53,7 +54,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='nav-item'>
-                <a onclick='redirectLogin()' className='nav-link' href='#'>
+                <a onClick='redirectLogin()' className='nav-link' href='#'>
                   <i className='bi bi-box-arrow-in-right'></i> entrar
                 </a>
               </li>

@@ -1,3 +1,4 @@
+/* eslint jsx-a11y/anchor-is-valid: 0 */
 import React from "react";
 import logo from "../../components/img/logo/logo.png";
 
@@ -10,7 +11,7 @@ export default function Privacidade() {
           <img
             src={logo}
             className='logo navbar-brand'
-            onclick='redirectHome()'
+            onClick='redirectHome()'
             alt='Voltar para a página inicial'
           />
           <button
@@ -53,7 +54,7 @@ export default function Privacidade() {
                 </a>
               </li>
               <li className='nav-item primary-color'>
-                <a onclick='redirectLogin()' className='nav-link' href='#'>
+                <a onClick='redirectLogin()' className='nav-link' href='#'>
                   <i className='bi bi-box-arrow-in-right'></i> entrar
                 </a>
               </li>

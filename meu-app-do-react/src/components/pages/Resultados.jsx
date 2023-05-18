@@ -1,3 +1,4 @@
+/* eslint jsx-a11y/anchor-is-valid: 0 */
 import React from "react";
 import logo from "../img/logo/logo.png"
 import acbrasil from "../img/cards/acbrazil.jpeg"
@@ -30,7 +31,7 @@ export default function Resultados() {
             <img
             src={logo}
             className="logo navbar-brand"
-            onclick="redirectHome()"
+            onClick="redirectHome()"
             alt="Voltar para a página inicial"
             />
         <button
@@ -49,7 +50,7 @@ export default function Resultados() {
             <li className="nav-item">
               <a
                 className="nav-link primary-color"
-                onclick="redirectHome()"
+                onClick="redirectHome()"
                 aria-current="page"
                 href="#"
                 >início</a
@@ -65,7 +66,7 @@ export default function Resultados() {
               <a className="nav-link" href="#">para imobiliárias</a>
             </li>
             <li className="nav-item primary-color">
-              <a onclick="redirectLogin()" className="nav-link" href="#"
+              <a onClick="redirectLogin()" className="nav-link" href="#"
                 ><i className="bi bi-box-arrow-in-right"></i> entrar</a
               >
             </li>
