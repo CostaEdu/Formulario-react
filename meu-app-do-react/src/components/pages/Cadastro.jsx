@@ -6,7 +6,7 @@ export default function Cadastro() {
     <div className="container-fluid">
     <img
       src={logo}
-      onClick="redirectHome()"
+      onclick="redirectHome()"
       role="button"
       className="logo"
       alt="Voltar para a página inicial"
@@ -152,7 +152,7 @@ export default function Cadastro() {
       <input
         className="btn btn-outline-dark btn-lg px-5 mt-3"
         type="submit"
-        onClick="validarCadastro()"
+        onclick="validarCadastro()"
         value="Cadastrar"
         id="submit-login"
       />

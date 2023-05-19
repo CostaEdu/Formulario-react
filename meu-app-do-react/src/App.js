@@ -1,4 +1,5 @@
-// import Home from "./components/pages/Home";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from "./components/pages/Home";
 // import "../src/components/styles/style.css"
 // import Cadastro from "./components/pages/Cadastro";
 // import "../src/components/styles/cadastro.css"
@@ -10,14 +11,19 @@
 // import "./components/styles/privacidade.css"
 // import Proprietario from "./components/pages/Proprietarios"
 // import "./components/styles/proprietario.css"
-import Resultados from "./components/pages/Resultados"
-import "./components/styles/resultados.css"
+// import Resultados from "./components/pages/Resultados"
+// import "./components/styles/resultados.css"
 
 
 function App() {
   return (
-    <Resultados />   
-  );
-}
-
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+    
+      </Routes>  
+    </BrowserRouter>
+  )
+  }
+    
 export default App;
