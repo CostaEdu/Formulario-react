@@ -1,8 +1,8 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/pages/Home";
-// import "../src/components/styles/style.css"
-// import Cadastro from "./components/pages/Cadastro";
-// import "../src/components/styles/cadastro.css"
+import "../src/components/styles/style.css"
+import Cadastro from "./components/pages/Cadastro";
+import "../src/components/styles/cadastro.css"
 // import Forgot from "./components/pages/Forgot"
 // import "../src/components/styles/forgot.css"
 // import Login from "./components/pages/Login"
@@ -20,6 +20,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/cadastro" element={<Cadastro />} />
     
       </Routes>  
     </BrowserRouter>

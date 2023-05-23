@@ -165,7 +165,6 @@ export default function Cadastro() {
         Já possui uma conta?
         <a className="links fw-bold" href="../pages/login.html">Entre</a>
       </p>
-      <button id="button"><i className="fas fa-moon icon"></i></button>
     </div>
   </div>
 
