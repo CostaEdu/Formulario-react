@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <nav className='navbar navbar-expand-lg'>
-        <div className='navcontainer-fluid'>
+        <div className='container-fluid'>
           <img
             src={logo}
             className='logo navbar-brand'
@@ -54,7 +54,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='nav-item'>
-                <a onclick='redirectLogin()' className='nav-link' href='#'>
+                <a onClick='redirectLogin()' className='nav-link' href='#'>
                   <i className='bi bi-box-arrow-in-right'></i> entrar
                 </a>
               </li>
